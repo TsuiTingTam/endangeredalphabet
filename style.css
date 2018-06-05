@@ -172,6 +172,7 @@ li:hover > ul.drop-menu li {
     margin-right: 8%;
     margin-left: 63%;
     z-index: 100;
+    width: 30vw;
     
 }
 
