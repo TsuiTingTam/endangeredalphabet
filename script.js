@@ -10,12 +10,12 @@ var Img = new Array();
 
     var Link = new Array();
     
-    Link[1] = "https://tsuitingtam.github.io/Final/Suzhou.html";
-    Link[2] = "https://tsuitingtam.github.io/Final/Suzhou.html";
-    Link[3] = "https://tsuitingtam.github.io/Final/Suzhou.html";
-    Link[4] = "https://tsuitingtam.github.io/Final/Suzhou.html";
-    Link[5] = "https://tsuitingtam.github.io/Final/Suzhou.html";
-    Link[6] = "https://tsuitingtam.github.io/Final/Suzhou.html";
+    Link[1] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_gracekind.html";
+    Link[2] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_ehwam.html";
+    Link[3] = "https://tsuitingtam.github.io/Final/suzhou.html";
+    Link[4] = "https://tsuitingtam.github.io/Final/suzhou.html";
+    Link[5] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_sun.html";
+    Link[6] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_moon.html";
     
     var Title = new Array();
     
