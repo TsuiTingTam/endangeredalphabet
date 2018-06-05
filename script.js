@@ -7,6 +7,8 @@ var Img = new Array();
     Img[4] = "Img/suzhou1.png";
     Img[5] = "5.png";
     Img[6] = "6.png";
+    Img[7] = "Img/sutterlin_deutsch.png";
+    Img[8] = "Img/sutterlin_sutt.png";
 
     var Link = new Array();
     
@@ -16,6 +18,9 @@ var Img = new Array();
     Link[4] = "https://tsuitingtam.github.io/Final/suzhou.html";
     Link[5] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan.html";
     Link[6] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan.html";
+    Link[7] = "https://tsuitingtam.github.io/endangeredalphabet/deseret.html";
+    Link[8] = "https://tsuitingtam.github.io/endangeredalphabet/sutterlin.html";
+    Link[9] = "https://tsuitingtam.github.io/endangeredalphabet/sutterlin.html";
     
     var Title = new Array();
     
@@ -25,6 +30,9 @@ var Img = new Array();
     Title[4] = "Suzhou Numerals";
     Title[5] = "Tibetan";
     Title[6] = "Tibetan";
+    Title[7] = "Deseret Alphabet";
+    Title[8] = "Sütterlin";
+    Title[9] = "Sütterlin";
     
     
     var Text = new Array();
@@ -39,6 +47,10 @@ var Img = new Array();
     Text[5] = "Graceful kidness. A Tibetan calligraphy by Tashi Mannox.";
     
     Text[6] = "This ideograph is the word \'moon\' in the Tibetan Drutsa script.";
+    
+    Text[7] = "Deseret alphabet Deseret Alphabet is a phonemic English-language spelling reform developed between 1847 and 1854 by the board of regents of the University of Deseret under the leadership of Brigham Young, the second president of the Church of Jesus Christ of Latter-Day Saints. George D. Watt is reported to have been the most actively involved in the development of the script, as well as being its first serious user.";
+    Text[8] = "Deutsch (German in german)";
+    Text[8] = "Sütterlinschrift, \"Sütterlin script\"";
  
     var BGcolor = new Array ();
     
@@ -48,6 +60,9 @@ var Img = new Array();
     BGcolor[4] = "#F8D473";
     BGcolor[5] = "#FB8200";
     BGcolor[6] = "#FB8200";
+    BGcolor[7] = "#9BC6AD";
+    BGcolor[8] = "#C64C40";
+    BGcolor[9] = "#C64C40";
     
     var rnd = Math.floor(Math.random() * Img.length);
     if (rnd === 0) {
