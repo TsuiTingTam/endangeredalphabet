@@ -3,19 +3,19 @@ var Img = new Array();
     
     Img[1] = "1.png";
     Img[2] = "2.png";
-    Img[3] = "3.png";
-    Img[4] = "4.png";
+    Img[3] = "Img/mongolian_newyear.png";
+    Img[4] = "Img/suzhou1.png";
     Img[5] = "5.png";
     Img[6] = "6.png";
 
     var Link = new Array();
     
-    Link[1] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_gracekind.html";
-    Link[2] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_ehwam.html";
-    Link[3] = "https://tsuitingtam.github.io/Final/suzhou.html";
+    Link[1] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan.html";
+    Link[2] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan.html";
+    Link[3] = "https://tsuitingtam.github.io/Final/mongolian.html";
     Link[4] = "https://tsuitingtam.github.io/Final/suzhou.html";
-    Link[5] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_sun.html";
-    Link[6] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan_moon.html";
+    Link[5] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan.html";
+    Link[6] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan.html";
     
     var Title = new Array();
     
