@@ -7,8 +7,10 @@ var Img = new Array();
     Img[4] = "Img/suzhou1.png";
     Img[5] = "5.png";
     Img[6] = "6.png";
-    Img[7] = "Img/sutterlin_deutsch.png";
-    Img[8] = "Img/sutterlin_sutt.png";
+    Img[7] = "Img/deseret_human.png";
+    Img[8] = "Img/sutterlin_deutsch.png";
+    Img[9] = "Img/sutterlin_sutt.png";
+    Img[10] = "Img/cree_language.png";
 
     var Link = new Array();
     
@@ -20,7 +22,7 @@ var Img = new Array();
     Link[6] = "https://tsuitingtam.github.io/endangeredalphabet/tibetan.html";
     Link[7] = "https://tsuitingtam.github.io/endangeredalphabet/deseret.html";
     Link[8] = "https://tsuitingtam.github.io/endangeredalphabet/sutterlin.html";
-    Link[9] = "https://tsuitingtam.github.io/endangeredalphabet/sutterlin.html";
+    Link[10] = "https://tsuitingtam.github.io/endangeredalphabet/cree.html";
     
     var Title = new Array();
     
@@ -33,6 +35,7 @@ var Img = new Array();
     Title[7] = "Deseret Alphabet";
     Title[8] = "Sütterlin";
     Title[9] = "Sütterlin";
+    Title[10] = "Cree";
     
     
     var Text = new Array();
@@ -50,7 +53,8 @@ var Img = new Array();
     
     Text[7] = "Deseret alphabet Deseret Alphabet is a phonemic English-language spelling reform developed between 1847 and 1854 by the board of regents of the University of Deseret under the leadership of Brigham Young, the second president of the Church of Jesus Christ of Latter-Day Saints. George D. Watt is reported to have been the most actively involved in the development of the script, as well as being its first serious user.";
     Text[8] = "Deutsch (German in german)";
-    Text[8] = "Sütterlinschrift, \"Sütterlin script\"";
+    Text[9] = "Sütterlinschrift, \"Sütterlin script\"";
+    Text[10] = "Cree syllabics are the versions of Canadian Aboriginal syllabics used to write Cree dialects, including the original syllabics system created for Cree and Ojibwe (Cree and Ojibwe). There are two main varieties of syllabics for Cree. Syllabics were later adapted to several other languages. The below sentence means \'one language is never enough.\'";
  
     var BGcolor = new Array ();
     
@@ -63,6 +67,7 @@ var Img = new Array();
     BGcolor[7] = "#9BC6AD";
     BGcolor[8] = "#C64C40";
     BGcolor[9] = "#C64C40";
+    BGcolor[10] = "#D57C24";
     
     var rnd = Math.floor(Math.random() * Img.length);
     if (rnd === 0) {
