@@ -1,0 +1,105 @@
+
+#title {
+    position: relative;
+    top: 0;
+    right: 0;
+    font-family: 'FreightSans Pro';
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-right: 6%;
+    
+}
+
+
+
+#description {
+    position: relative;
+    margin-top: -15px;
+    right: 0;
+    margin-right: 6%;
+    font-family: 'FreightSans Pro';
+    font-size: 0.8rem;
+    
+}
+
+a{
+   font-family: 'FreightSans Pro';
+    font-size: 0.8rem; 
+    color: black;
+    
+}
+
+#refresh {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 30px;
+    padding: 5px;
+    margin: 25px 25px 20px 10px;
+
+}
+
+.icon {
+	max-height: 30px;
+    margin: 20px 10px;
+}
+
+
+
+body {
+    max-height: 100vh;
+    background-color: #FB8200;
+    overflow: hidden;
+
+}
+
+
+.carousel-frame img {
+    max-height: 400px;
+}
+
+.carousel-frame {
+    
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    overflow-x: scroll;
+    white-space: nowrap;
+ }
+ .carousel-frame ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+}
+.carousel-frame li.carousel-item {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 0;
+    max-height: 10vh;
+}
+#container {
+    position: fixed;
+    top:0;
+    margin-right: 5%;
+    margin-left: 65%;
+    z-index: 100;
+    
+}
+
+.hover_img a { 
+    position:relative; 
+    
+}
+
+.hover_img a span { 
+    position:absolute;
+    top: 5vh;
+    display:none; 
+}
+
+.hover_img a:hover span { 
+    display:block; 
+}

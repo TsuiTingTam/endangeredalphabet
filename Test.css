@@ -1,0 +1,56 @@
+#pic {
+  background: url(http://www.metalinjection.net/wp-content/uploads/2014/07/space-metal.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+#pic::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(http://www.metalinjection.net/wp-content/uploads/2014/07/space-metal.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+#pic.blur::before {
+  opacity: 1;
+}
+
+.banner_link {
+  font-family: 'Raleway';
+  letter-spacing: 0.2em;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 16px;
+  padding-top: 45px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.banner_link a::after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 90px;
+  background: #ffffff;
+  transition: width .2s ease, background-color .5s ease;
+}
+
+.banner_link a:hover:after {
+  width: 0px;
+  background: transparent;
+}

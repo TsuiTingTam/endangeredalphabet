@@ -1,0 +1,81 @@
+#title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'FreightSans Pro';
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-right: 6%;
+    padding-left: 20%;
+}
+
+#description {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 4.5rem;
+    margin-left: 60%;
+    margin-right: 6%;
+    padding-left: 10%;
+    font-family: 'FreightSans Pro';
+    font-size: 0.8rem;
+    
+}
+
+#refresh {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 30px;
+    padding: 5px;
+    margin: 25px 25px 20px 10px;
+
+}
+
+.icon {
+	max-height: 30px;
+    margin: 20px 10px;
+}
+
+body {
+    max-height: 100vh;
+    background-color: #FFF6ED;
+
+}
+
+
+img {
+    max-height: 200px;
+    float: left;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 30px;
+
+}
+
+
+
+
+#container {
+    margin: 70px 2vw;
+    width: 96vw;
+    left:0 auto;
+    height: 30vh;
+
+}
+
+.vl {
+    border-left: 1px solid grey;
+    height: 200px;
+    position: relative;
+    top: 0;
+}
+
+#break {
+    height: 200px;
+}
+
+#cat {
+    margin-bottom: 100px;
+}
