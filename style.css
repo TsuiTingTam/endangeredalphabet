@@ -263,7 +263,7 @@ li:hover > ul.drop-menu li {
     z-index: 1000;
 }
 
-#infocontainer {
+.infocontainer {
     width: 50px;
     height: 70px;
     z-index: 1000;
