@@ -49,17 +49,17 @@ body {
 
 .blur {
     color: transparent;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: 0.5s text-shadow linear;
 }
 
 .imgblur {
-    -webkit-filter: blur(10px);
+    -webkit-filter: blur(15px);
     transition: 0.5s -webkit-filter linear;
 }
 
 .imgblurtrans {
-    -webkit-filter: blur(10px);
+    -webkit-filter: blur(15px);
     transition: 0.5s -webkit-filter linear;
     opacity: 0.3;
 }
@@ -240,4 +240,31 @@ li:hover > ul.drop-menu li {
     max-width: 60%;
     max-height: 90vh;
 }
+}
+
+.icon {
+	max-height: 30px;
+    margin: 20px 10px;  
+}
+
+
+#infocontainer:hover .info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.info{
+    visibility: hidden;
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    margin-top: 0;
+    max-width: 40vw;
+    z-index: 1000;
+}
+
+#infocontainer {
+    width: 50px;
+    height: 70px;
+    z-index: 1000;
 }

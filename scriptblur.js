@@ -70,3 +70,75 @@ $("#title1").hover(
         $('#app').removeClass('imgblur');
     }
 )
+
+$("#infocontainer").hover(
+ function () {
+        $('#app').addClass('imgblur');
+    },
+    function () {
+        $('#app').removeClass('imgblur');
+    }
+)
+
+$("#infocontainer").hover(
+    function () {
+        $('#description').addClass('blur');
+    },
+    function () {
+        $('#description').removeClass('blur');
+    }
+)
+
+$("#infocontainer").hover(
+    function () {
+        $('#all').addClass('imgblurtrans');
+    },
+    function () {
+        $('#all').removeClass('imgblurtrans');
+    }
+)
+$("#infocontainer").hover(
+    function () {
+        $('#images').addClass('imgblurtrans');
+    },
+    function () {
+        $('#images').removeClass('imgblurtrans');
+    }
+)
+$("#infocontainer").hover(
+    function () {
+        $('#imagesmid').addClass('imgblurtrans');
+    },
+    function () {
+        $('#imagesmid').removeClass('imgblurtrans');
+    }
+)
+
+$("#infocontainer").hover(
+    function () {
+        $('#link').addClass('blur');
+    },
+    function () {
+        $('#link').removeClass('blur');
+    }
+    
+)
+
+$("#infocontainer").hover(
+    function () {
+        $('#title1').addClass('blur');
+    },
+    function () {
+        $('#title1').removeClass('blur');
+    }
+    
+)
+$("#infocontainer").hover(
+    function () {
+        $('#container').addClass('imgblurtrans');
+    },
+    function () {
+        $('#container').removeClass('imgblurtrans');
+    }
+    
+)
