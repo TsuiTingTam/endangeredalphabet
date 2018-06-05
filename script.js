@@ -29,21 +29,17 @@ var Img = new Array();
     
     var Text = new Array();
     
-    Text[1] = "A wonderful piece of calligraphy, taking the horizontal Tibetan words for \"Graceful Kindness\"  and turning them into circular calligraphy. Calligraphy carved on wood.";
-    Text[2] = "A wonderful piece of calligraphy, taking the horizontal Tibetan words for \"Graceful Kindness\"  and turning them into circular calligraphy. Calligraphy carved on wood.";
+    Text[1] = "Graceful kidness. A Tibetan calligraphy by Tashi Mannox.";
+    
+    Text[2] = "The more well known Eh-Wam symbol, shown on the right, is associated with Tibetan Buddhist organizations, such as Rigpa and popular with the late Chogyam Trungpa Rinpoche, this is a combination of two letters 'Eh' and 'Wam' from the LansaSanskrit style.";
+    
     Text[3] = "A wonderful piece of calligraphy, taking the vertical Mongolian words for \"Happy New Year\"  and turning them into candles on an evergreen tree. Based on an original design by Sukhbaatar Lkhagvadorj.";
+    
     Text[4] = "The Suzhou Numerals, also known as Suzhou mazi, is a numeral system used in China before the introduction of Arabic numerals. The Suzhou numetrals are also known as huama, caoma, jingzima , fanzima and shangma.";
-    Text[5] = "abc electric test. The Suzhou Numerals, also known as Suzhou mazi, is a numeral system used in China before the introduction of Arabic numerals. The Suzhou numetrals are also known as huama, caoma, jingzima , fanzima and shangma.";
-    Text[6] = "abc electric. test.The Suzhou Numerals, also known as Suzhou mazi, is a numeral system used in China before the introduction of Arabic numerals. The Suzhou numetrals are also known as huama, caoma, jingzima , fanzima and shangma.";
+    Text[5] = "Graceful kidness. A Tibetan calligraphy by Tashi Mannox.";
     
-    var Caption = new Array ();
-    Caption[1] = "Graceful Kidness";
-    Caption[2] = "Water";
-    Caption[3] = "Happy New Year";
-    Caption[4] = "Happy New Year";
-    Caption[5] = "Happy New Year";
-    Caption[6] = "Happy New Year";
-    
+    Text[6] = "This ideograph is the word \'moon\' in the Tibetan Drutsa script.";
+ 
     var BGcolor = new Array ();
     
     BGcolor[1] = "#FB8200";
